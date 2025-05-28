@@ -13,6 +13,7 @@ const TodoList = ({ todos, toggleTodo }: Props) => {
         <TodoItem key={todo.id} todo={todo} toggleTodo={toggleTodo} />
       ))}
     </ul>
+    
   );
 };
 
